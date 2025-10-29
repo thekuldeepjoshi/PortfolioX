@@ -1,5 +1,4 @@
-# Add testimonials in the format shown below. Separate entries with ---
-"I really enjoyed working with Kuldeep over the last four years. Kuldeep has a great knowledge of mobile development along with an ever improving knowledge of PHP, JavaScript and other web development skills. He is not afraid to go out of his comfort zone and to learn new skills. He is also a great team player who is very approachable and is always there to help out"
+"Kuldeep has a great knowledge of mobile development along with an ever improving knowledge of PHP, JavaScript and other web development skills. He is not afraid to go out of his comfort zone and to learn new skills. He is also a great team player who is very approachable and is always there to help out."
 Louise Keane, Senior software Engineer
 
 ---
