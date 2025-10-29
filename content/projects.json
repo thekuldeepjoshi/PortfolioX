@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project Name Placeholder",
+    "summary": "Write a concise project summary highlighting the challenge and outcome.",
+    "image": "assets/img/project-placeholder-1.svg",
+    "technologies": ["Laravel", "TypeScript", "PostgreSQL"],
+    "link": "#"
+  },
+  {
+    "title": "Project Name Placeholder",
+    "summary": "Include the type of product, your responsibilities, and the measurable impact.",
+    "image": "assets/img/project-placeholder-2.svg",
+    "technologies": ["PHP", "Vue", "Redis"],
+    "link": "#"
+  },
+  {
+    "title": "Project Name Placeholder",
+    "summary": "Add a user experience or systems highlight you want to showcase.",
+    "image": "assets/img/project-placeholder-3.svg",
+    "technologies": ["Livewire", "Inertia", "Tailwind"],
+    "link": "#"
+  }
+]

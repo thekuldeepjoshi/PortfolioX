@@ -1,0 +1,6 @@
+# Use Category: skill, skill format per line
+Leadership: Engineering Team Leadership, Strategic Stakeholder Management, Agile Methodologies, Hiring & Performance Management, Mentoring, Strategic Planning (QBR/MBR), Code Review
+Core Stack & Architecture: Python, PHP, Laravel, Java, RESTful APIs, SQL, React, JavaScript
+Cloud & DevOps: Google Cloud Platform (GCP), AWS, Kubernetes (K8s), Docker, Jenkins CI/CD, Observability (Kibana, Grafana), Postman
+Compliance & Domains: FinTech Payment Systems, B2B SaaS, B2C SaaS, Microservices Architecture, Logistics Technology, Android Mobile Development, Security & Compliance (PCI DSS, GDPR)
+Ops & Support: Incident Management (PagerDuty), Customer Escalations (L3), API Troubleshooting, Log Analysis
