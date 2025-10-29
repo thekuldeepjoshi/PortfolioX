@@ -1,0 +1,7 @@
+# Add testimonials in the format shown below. Separate entries with ---
+"Add a testimonial quote here."
+Name, Title
+
+---
+"Add another testimonial quote here."
+Name, Title or Company

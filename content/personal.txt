@@ -1,0 +1,9 @@
+# Personal profile content
+name=Kuldeep Joshi
+role=Engineering Manager (MBA, MSc CS)
+location=Dublin, Ireland
+email=Kuldeep.joshi197@gmail.com
+tagline=Strategic engineering leader building resilient fintech and SaaS platforms.
+summary=Engineering Manager with 10+ years of experience delivering scalable payment, SaaS, and logistics solutions across startups and global organisations.
+about=Strategic engineering leader with a passion for building inclusive, high-performance teams that deliver robust, cloud-native platforms. I bring a blend of technical depth across Python, Java, PHP, and cloud infrastructure with a people-first approach shaped by mentoring award-winning teams and completing an executive MBA at LSE.
+hero_highlights=Led microservices powering Clover's Android and cloud platform | Mentored engineers recognised with an external mentorship award | Expert in GCP, Kubernetes, and reliable cloud architecture
