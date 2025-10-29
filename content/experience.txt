@@ -1,6 +1,4 @@
-# Format: Role | Company | Period
-# Follow with bullet lines for achievements. Separate entries with ---
-Engineering Manager (Ops) | Fiserv / Clover | 2022 — Present
+Engineering Manager (Ops) | Fiserv / Clover 
 - Lead an 8-person engineering team supporting B2B and B2C SaaS and FinTech products across Android and cloud platforms.
 - Designed and optimised microservices and web APIs in Python and Java that integrate with Clover's payment ecosystem.
 - Orchestrate monthly and quarterly business reviews with senior engineering and operations leadership.
@@ -10,27 +8,27 @@ Engineering Manager (Ops) | Fiserv / Clover | 2022 — Present
 - Mentor engineers on secure backend practices, API design, and cloud deployment strategies.
 
 ---
-Senior Software Engineer | Fiserv / Clover | 2018 — 2022
+Senior Software Engineer | Fiserv / Clover 
 - Served as SME for Clover APIs, SDKs, and SaaS platforms, guiding customers through integration and troubleshooting.
 - Improved SLA response time by 30% by developing Python automation for technical support workflows.
 - Partnered with cross-functional teams to uphold reliability and rapid issue resolution for enterprise clients.
 - Delivered solutions across Python, PHP, Java, React, and JavaScript with CI/CD pipelines.
 
 ---
-Engineering Mentor | Future in Tech | 2021 — Present
+Engineering Mentor | Future in Tech 
 - Volunteered as mentor for the Python Software Delivery zone, guiding students through backend projects.
 - Supported teams with API integrations, software delivery best practices, and competition readiness.
 - Helped the mentee team win the final competition and received an award for best mentorship.
 
 ---
-Software Engineer | Nolan Transport | 2015 — 2018
+Software Engineer | Nolan Transport
 - Built transport planning, customer portal, and fleet management applications using PHP on LAMP.
 - Delivered over six automated microservices to improve job processing efficiency by 20%.
 - Created Android apps integrating Google APIs with backend systems and published on Google Play.
 - Managed CI/CD deployments and maintenance on Apache infrastructure.
 
 ---
-Software Engineer | Stay Planet | 2014 — 2015
+Software Engineer | Stay Planet 
 - Developed and maintained the Laravel-based homestay web application across PHP, HTML, and CSS.
 - Implemented OOP patterns and managed MySQL data models for booking operations.
 
