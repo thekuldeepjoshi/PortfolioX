@@ -1,0 +1,181 @@
+{
+  "identity": {
+    "name": "Kuldeep Joshi",
+    "title": "Engineering Manager (MBA, MSc CS)",
+    "location": "Dublin, Ireland",
+    "summary": "Strategic Engineering Leader with over 10 years of experience delivering scalable, high-performance software solutions across startups and global organisations.",
+    "bio": "I design and optimize robust cloud platforms with GCP, Kubernetes, and microservices while mentoring engineering teams toward sustainable delivery.",
+    "contact_cta": "Let\u2019s build resilient platforms together"
+  },
+  "summary": "I have built scalable systems using Python, Java, and PHP. I specialize in designing and optimizing robust cloud systems using modern tech like GCP, Kubernetes, and Microservices, always focusing on reliability and clean architecture. I am passionate about leading and mentoring engineering teams, and my dedication to people development was recognized with an external mentorship award. With an executive MBA from the London School of Economics (LSE) and a MSc in Computing Science, I bring a strong blend of technical expertise and strategic insight. Having worked in diverse, multicultural environments, I thrive on aligning teams with meaningful outcomes.",
+  "highlights": [
+    "10+ years leading high-performing engineering squads across fintech and logistics platforms",
+    "Award-winning mentor with a passion for people development and inclusive culture",
+    "Architect of scalable cloud-native systems tuned for resilience, observability, and clean execution"
+  ],
+  "experience": [
+    {
+      "role": "Engineering Manager (Ops)",
+      "company": "Fiserv \u00b7 Clover",
+      "location": "Nenagh, Ireland",
+      "period": "Jan 2021 \u2013 Present",
+      "summary": "Lead full-stack squads shipping B2B and B2C fintech experiences while safeguarding reliability for Clover\u2019s Android and cloud ecosystems.",
+      "achievements": [
+        "Led the design, development, and support of microservices and web APIs using Python and Java, enabling seamless integration with Clover\u2019s payment platform.",
+        "Managed a team of eight engineers handling escalations, troubleshooting API issues, and analysing platform behaviour for enterprise clients.",
+        "Facilitated monthly and quarterly business reviews with senior leaders across engineering and operations to align goals and delivery.",
+        "Optimised GCP deployments for cost efficiency while maintaining high availability during growing transaction volumes.",
+        "Tuned MySQL and MongoDB data stores for low-latency financial transaction workloads.",
+        "Automated incident workflows with Python services, accelerating response time for critical production events.",
+        "Mentored engineers on secure backend development, API craftsmanship, and cloud deployment strategies."
+      ],
+      "subroles": [
+        {
+          "role": "Senior Software Engineer",
+          "company": "Fiserv",
+          "period": "2021 \u2013 2022",
+          "achievements": [
+            "Served as SME for Clover APIs, SDKs, and SaaS platforms to resolve complex customer integrations.",
+            "Improved technical support SLA response time by 30% with Python automation tooling.",
+            "Partnered across functions to uphold reliability and rapid resolution for enterprise accounts."
+          ]
+        }
+      ],
+      "technologies": [
+        "Python",
+        "Java",
+        "PHP",
+        "React",
+        "JavaScript",
+        "Google Cloud",
+        "Kubernetes",
+        "CI/CD",
+        "SQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "role": "Engineering Mentor",
+      "company": "Future in Tech",
+      "location": "Dublin, Ireland",
+      "period": "Mar 2022 \u2013 Jun 2022",
+      "summary": "Volunteer mentor for the Python Software Delivery zone supporting emerging engineers.",
+      "achievements": [
+        "Mentored a student team through Python and Java project delivery, winning the final showcase competition.",
+        "Provided hands-on guidance for API integrations and best practices in software delivery.",
+        "Recognised with best mentorship award for the cohort."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Nolan Transport",
+      "location": "New Ross, Ireland",
+      "period": "Sep 2016 \u2013 Dec 2020",
+      "summary": "Delivered mission-critical transport planning, customer portal, and fleet management products with PHP and LAMP.",
+      "achievements": [
+        "Built automated microservices that increased job-processing efficiency by 20%.",
+        "Shipped Android apps integrating Google APIs with backend services and published to Google Play.",
+        "Deployed and maintained services on Apache via CI/CD pipelines."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Stay Planet",
+      "location": "Dublin, Ireland",
+      "period": "Oct 2014 \u2013 Dec 2014",
+      "summary": "Developed Laravel-based web applications for a hospitality marketplace while managing MySQL data models.",
+      "achievements": [
+        "Implemented object-oriented PHP patterns to streamline feature delivery.",
+        "Maintained secure data flows for bookings and customer management before pursuing MSc studies."
+      ]
+    }
+  ],
+  "skills": {
+    "Leadership": [
+      "Engineering Team Leadership",
+      "Strategic Stakeholder Management",
+      "Agile Methodologies",
+      "Hiring & Performance Management",
+      "Mentoring",
+      "Strategic Planning (QBR/MBR)",
+      "Code Review"
+    ],
+    "Core Stack & Architecture": [
+      "Python",
+      "PHP",
+      "Laravel",
+      "Java",
+      "RESTful APIs",
+      "SQL",
+      "React",
+      "JavaScript"
+    ],
+    "Cloud & DevOps": [
+      "Google Cloud Platform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD (Jenkins)",
+      "Observability (Kibana, Grafana)",
+      "Postman"
+    ],
+    "Compliance & Domains": [
+      "FinTech (Payment Systems)",
+      "B2B & B2C SaaS",
+      "Microservices Architecture",
+      "Logistics Technology",
+      "Mobile App Development (Android)",
+      "Security & Compliance (PCI DSS, GDPR)"
+    ],
+    "Operations & Support": [
+      "Incident Management (PagerDuty)",
+      "Customer Escalations (L3)",
+      "API Troubleshooting",
+      "Log Analysis"
+    ]
+  },
+  "education": [
+    {
+      "degree": "MBA Executive",
+      "institution": "London School of Economics (LSE)",
+      "year": "2022"
+    },
+    {
+      "degree": "Master of Science in Computing",
+      "institution": "Griffith College Dublin, Ireland",
+      "year": "2015"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Application",
+      "institution": "KSKV Kachchh University, India",
+      "year": "2013"
+    }
+  ],
+  "certificates": [
+    "MongoDB",
+    "Google Cloud Fundamentals",
+    "Learning Python",
+    "React.js",
+    "RESTful APIs",
+    "NPM"
+  ],
+  "contact": {
+    "email": "kuldeep@example.com",
+    "linkedin": "https://www.linkedin.com/in/kuldeepjoshi/",
+    "github": "https://github.com/kuldeepjoshi"
+  },
+  "metrics": [
+    {
+      "value": "10+",
+      "label": "Years of engineering leadership"
+    },
+    {
+      "value": "8",
+      "label": "Engineers mentored at Clover"
+    },
+    {
+      "value": "2",
+      "label": "Advanced degrees (MBA, MSc)"
+    }
+  ]
+}
