@@ -1,423 +1,251 @@
 <?php
-$meta = [
-    'name' => 'Kuldeep Joshi',
-    'role' => 'Engineering Manager',
-    'tagline' => 'Engineering leader with 10+ years orchestrating resilient platforms, empowering teams, and shipping outcomes that matter.',
-    'location' => 'Dublin, Ireland',
-    'availability' => 'Available for transformation and advisory engagements starting Q3 2024.',
-    'eyebrow' => 'Engineering leadership · Platform modernization · Team enablement',
-];
-
-$highlights = [
-    'Scaled multi-region platforms supporting 50M+ users while sustaining 99.97% uptime.',
-    'Coached and grew 45+ engineers into empowered product squads with measurable OKRs.',
-    'Partnered with product and design to deliver customer wins within an eight-week cadence.',
-];
-
-$metrics = [
-    ['value' => '10+', 'label' => 'Years building and leading engineering orgs'],
-    ['value' => '45+', 'label' => 'Engineers coached across platform teams'],
-    ['value' => '63%', 'label' => 'Deployment lead-time reduction'],
-];
-
-$initiatives = [
-    [
-        'title' => 'Next-gen payments modernization',
-        'description' => 'Migrated a legacy monolith into domain-driven services with automated guardrails, enabling weekly global payment releases.',
-        'impact' => 'Improved transaction success rate from 92% to 99.4% within two quarters.',
-        'focus' => 'Service decomposition · Observability · Change management',
-        'image' => 'assets/images/initiative-modernization.svg',
-        'links' => [
-            ['label' => 'Modernization playbook', 'url' => '#'],
-        ],
-    ],
-    [
-        'title' => 'Reliability command center',
-        'description' => 'Established an SRE program with unified alerting, runbooks, and executive-level incident review rituals.',
-        'impact' => 'Reduced critical incidents by 48% and mean-time-to-detect to under 4 minutes.',
-        'focus' => 'SRE charter · Platform observability · Executive reporting',
-        'image' => 'assets/images/initiative-observability.svg',
-        'links' => [
-            ['label' => 'See operating model', 'url' => '#'],
-        ],
-    ],
-    [
-        'title' => 'People-first delivery culture',
-        'description' => 'Introduced squad health checks, mentorship programs, and skill matrices that fuel continuous growth and retention.',
-        'impact' => 'Unlocked 94% retention and doubled cross-team collaboration scores.',
-        'focus' => 'Talent development · Empowered squads · Psychological safety',
-        'image' => 'assets/images/initiative-culture.svg',
-        'links' => [
-            ['label' => 'Read the culture guide', 'url' => '#'],
-        ],
-    ],
-];
-
-$pillars = [
-    [
-        'icon' => '🤝',
-        'title' => 'People-first leadership',
-        'description' => 'Blend coaching, 1:1 frameworks, and career mapping to build teams that feel supported and ready to own outcomes.',
-    ],
-    [
-        'icon' => '🧭',
-        'title' => 'Clarity through strategy',
-        'description' => 'Translate company goals into measurable roadmaps, ensuring squads ship iteratively with aligned expectations.',
-    ],
-    [
-        'icon' => '🚀',
-        'title' => 'Delivery with trust',
-        'description' => 'Introduce automation, observability, and rituals that help teams deliver safely and celebrate learning.',
-    ],
+/**
+ * PortfolioX — Kuldeep Joshi
+ * Single-file PHP portfolio generated from CV.
+ * Note: GitHub Pages cannot run PHP; use a PHP-capable host (Render, etc.).
+ */
+ 
+$profile = [
+  "name" => "Kuldeep Joshi",
+  "title" => "Engineering Manager (MBA, MSc CS)",
+  "summary" => "Strategic Engineering Leader with 10+ years delivering scalable, high‑performance software across startups and global organisations. Built scalable systems in Python, Java and PHP; specialise in designing & optimising cloud systems on GCP, Kubernetes and microservices with a focus on reliability and clean architecture. Passionate about mentoring and people development (won an external mentorship award). Executive MBA from the London School of Economics (LSE) and MSc in Computing Science. Experienced in diverse, multicultural environments.",
+  "location" => "Dublin, Ireland",
+  "email" => "Kuldeep.joshi197@gmail.com",
+  "links" => [
+    ["label" => "LinkedIn", "url" => "https://www.linkedin.com/in/kuldeep-joshi/"],
+    ["label" => "GitHub", "url" => "https://github.com/thekuldeepjoshi"],
+  ]
 ];
 
 $experience = [
-    [
-        'role' => 'Director of Engineering',
-        'company' => 'BrightScale Platforms',
-        'period' => '2021 — Present',
-        'summary' => 'Guided four product-aligned squads across payments and risk, co-owning product strategy with the CPO.',
-        'highlights' => [
-            'Launched a multi-region payments stack that processed $4B+ annually.',
-            'Built an internal engineering leadership program with 12 new managers.',
-        ],
+  [
+    "role" => "Engineering Manager (Ops)",
+    "company" => "Fiserv (Clover)",
+    "location" => "Nenagh, Ireland",
+    "period" => "Jan 2021 – Present",
+    "bullets" => [
+      "Led design, development, and support of microservices and web APIs in Python and Java integrating with Clover’s payment platform and financial services.",
+      "Managed a team of 8 engineers in Developer Relations handling customer escalations, API troubleshooting, and platform behaviour analysis.",
+      "Drove Monthly and Quarterly Business Reviews with senior leadership across Engineering and Operations.",
+      "Deployed services on GCP for scalability and high availability; optimised cloud resource usage for cost/performance.",
+      "Optimised MySQL & MongoDB for high throughput, low latency on financial/payment data workloads.",
+      "Built Python services to automate incident response workflows, improving response time and uptime for financial applications.",
+      "Mentored engineers on secure coding, API design, and cloud deployment best practices."
     ],
-    [
-        'role' => 'Engineering Manager',
-        'company' => 'Skybound Systems',
-        'period' => '2016 — 2021',
-        'summary' => 'Led platform and experience teams delivering SaaS solutions for enterprise logistics and fintech clients.',
-        'highlights' => [
-            'Cut deployment lead times from monthly to daily releases.',
-            'Negotiated cross-functional OKRs that improved NPS by 19 points.',
-        ],
-    ],
-    [
-        'role' => 'Technical Lead',
-        'company' => 'InnovaSoft',
-        'period' => '2013 — 2016',
-        'summary' => 'Oversaw architecture and delivery of B2B integration platforms while mentoring senior engineers into lead roles.',
-        'highlights' => [
-            'Standardized code quality gates adopted across five product lines.',
-            'Mentored engineers who became team leads within 18 months.',
-        ],
-    ],
+    "tech" => "Python, PHP, Java, React, JavaScript, Google Cloud, Kubernetes, CI/CD, SQL, MongoDB"
+  ],
+  [
+    "role" => "Senior Software Engineer",
+    "company" => "Fiserv",
+    "location" => "",
+    "period" => "2021 – 2022",
+    "bullets" => [
+      "Served as SME for Clover APIs, SDKs, and SaaS platforms; provided technical guidance and resolved customer‑reported issues.",
+      "Improved SLA response time by 30% by building Python automation tooling for issue resolution.",
+      "Collaborated cross‑functionally to ensure product reliability and rapid issue resolution for enterprise clients."
+    ]
+  ],
+  [
+    "role" => "Engineering Mentor (Volunteer)",
+    "company" => "Future in Tech",
+    "location" => "Dublin, Ireland",
+    "period" => "Mar 2022 – Jun 2022",
+    "bullets" => [
+      "Mentored a small team on Python and Java projects within the Software Delivery zone.",
+      "Guided team to meet project challenges and win the final competition.",
+      "Provided hands‑on support with API integrations and delivery best practices.",
+      "Received an award for best mentorship in the software delivery project."
+    ]
+  ],
+  [
+    "role" => "Software Engineer",
+    "company" => "Nolan Transport",
+    "location" => "New Ross, Ireland",
+    "period" => "Sep 2016 – Dec 2020",
+    "bullets" => [
+      "Developed Transport Planning System, Customer Portal, and Fleet Management apps using PHP/LAMP.",
+      "Built 6+ automated microservices improving job processing efficiency by ~20%.",
+      "Developed Android apps integrating Google APIs and backend systems; published on Google Play.",
+      "Deployed and maintained services on Apache with CI/CD."
+    ]
+  ],
+  [
+    "role" => "Software Engineer",
+    "company" => "Stay Planet",
+    "location" => "Dublin, Ireland",
+    "period" => "Oct 2014 – Dec 2014",
+    "bullets" => [
+      "Developed and maintained web app using PHP, Laravel, HTML, CSS.",
+      "Implemented OOP concepts and maintained MySQL database.",
+      "Took study break for MSc thereafter."
+    ]
+  ],
 ];
 
-$testimonials = [
-    [
-        'quote' => 'Kuldeep instilled calm, confidence, and velocity in our engineering organization. His leadership unlocked the outcomes product and sales had been chasing for years.',
-        'author' => 'Rhea Nair · Chief Product Officer, BrightScale Platforms',
-    ],
-    [
-        'quote' => 'He builds trust quickly, sets crisp expectations, and then empowers teams to exceed them. Our reliability transformation would not have happened without Kuldeep.',
-        'author' => 'Matthew Keller · VP Engineering, Skybound Systems',
-    ],
-    [
-        'quote' => 'From exec briefings to mentoring new managers, Kuldeep elevates the entire organization and still finds time to celebrate the wins that keep morale high.',
-        'author' => 'Aditi Rana · Director of Product Design, BrightScale Platforms',
-    ],
+$skills = [
+  "Leadership" => [
+    "Engineering Team Leadership", "Stakeholder Management", "Agile", "Hiring & Performance Management",
+    "Mentoring", "Strategic Planning (QBR/MBR)", "Code Review"
+  ],
+  "Core Stack & Architecture" => [
+    "Python", "PHP", "Laravel", "Java", "RESTful APIs", "SQL", "React", "JavaScript"
+  ],
+  "Cloud & DevOps" => [
+    "GCP", "AWS", "Kubernetes (K8s)", "Docker", "CI/CD (Jenkins)", "Observability (Kibana, Grafana)", "Postman"
+  ],
+  "Compliance & Domains" => [
+    "FinTech (Payment Systems)", "B2B/B2C SaaS", "Microservices", "Logistics Tech", "Android", "Security & Compliance (PCI DSS, GDPR)"
+  ],
+  "Ops & Support" => [
+    "Incident Management (PagerDuty)", "Customer Escalations (L3)", "API Troubleshooting", "Log Analysis"
+  ]
 ];
 
-$recognitions = [
-    [
-        'title' => 'Top People Leader',
-        'issuer' => 'Tech Guild Awards 2023',
-        'summary' => 'Recognized for building inclusive leadership programs and measurable talent development outcomes.',
-    ],
-    [
-        'title' => 'Keynote: Accelerating Platform Modernization',
-        'issuer' => 'Cloud Native Summit 2022',
-        'summary' => 'Shared the modernization roadmap that unlocked 60% faster releases for a global payments platform.',
-    ],
-    [
-        'title' => 'Panel: Cultivating Engineering Culture at Scale',
-        'issuer' => 'LeadDev New York',
-        'summary' => 'Discussed rituals and feedback loops that drive clarity and engagement for distributed squads.',
-    ],
+$education = [
+  ["degree" => "MBA Executive", "school" => "London School of Economics (LSE)", "year" => "2022"],
+  ["degree" => "MSc in Computing", "school" => "Griffith College Dublin, Ireland", "year" => "2015"],
+  ["degree" => "BSc in Computer Application", "school" => "KSKV Kachchh University, India", "year" => "2013"],
 ];
 
-$socials = [
-    ['label' => 'LinkedIn', 'url' => 'https://www.linkedin.com/in/kuldeep-joshi/'],
-    ['label' => 'GitHub', 'url' => 'https://github.com/kuldeepjoshi'],
-    ['label' => 'Medium', 'url' => 'https://medium.com/@kuldeepjoshi'],
-    ['label' => 'Email', 'url' => 'mailto:hello@kuldeepjoshi.com'],
+$certifications = [
+  ["name" => "MongoDB (Credly)", "url" => "https://www.credly.com/badges/0a1bf230-a5f6-43e3-aaf1-41cfde83aa53/linked_in?t=sw91cs"],
+  ["name" => "Google Cloud Fundamentals (Coursera)", "url" => "https://www.coursera.org/learn/gcp-fundamentals"],
+  ["name" => "Python Specialization (Coursera)", "url" => "https://www.coursera.org/specializations/python"],
+  ["name" => "React.js (LinkedIn Learning)", "url" => "https://www.linkedin.com/learning/learning-react-js-5"],
+  ["name" => "Designing RESTful APIs (LinkedIn Learning)", "url" => "http://www.linkedin.com/learning/designing-restful-apis"],
+  ["name" => "NPM (LinkedIn Learning)", "url" => "http://www.linkedin.com/learning/learning-npm-the-node-package-manager-3"]
 ];
-
-$storagePath = __DIR__ . '/storage/contacts.json';
-$formData = [
-    'name' => '',
-    'email' => '',
-    'message' => '',
-];
-$feedback = null;
-$errors = [];
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $formData = [
-        'name' => trim($_POST['name'] ?? ''),
-        'email' => trim($_POST['email'] ?? ''),
-        'message' => trim($_POST['message'] ?? ''),
-    ];
-
-    if ($formData['name'] === '') {
-        $errors['name'] = 'Please tell me who I am speaking with.';
-    }
-
-    if ($formData['email'] === '' || !filter_var($formData['email'], FILTER_VALIDATE_EMAIL)) {
-        $errors['email'] = 'Share a valid email so I can reach back out.';
-    }
-
-    if ($formData['message'] === '') {
-        $errors['message'] = 'Let me know how I can help with a short message.';
-    }
-
-    if (!$errors) {
-        if (!file_exists($storagePath)) {
-            file_put_contents($storagePath, json_encode([], JSON_PRETTY_PRINT));
-        }
-
-        $existing = json_decode(file_get_contents($storagePath) ?: '[]', true);
-        if (!is_array($existing)) {
-            $existing = [];
-        }
-
-        $existing[] = [
-            'name' => $formData['name'],
-            'email' => $formData['email'],
-            'message' => $formData['message'],
-            'submitted_at' => date(DATE_ATOM),
-        ];
-
-        file_put_contents($storagePath, json_encode($existing, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES), LOCK_EX);
-        $feedback = 'Thank you for reaching out! I will get back to you within two business days.';
-        $formData = ['name' => '', 'email' => '', 'message' => ''];
-    } else {
-        $feedback = 'Something is missing — please fix the highlighted fields.';
-    }
-}
-
-function e(string $value): string
-{
-    return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
-}
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo e($meta['name']); ?> · <?php echo e($meta['role']); ?></title>
-    <meta name="description" content="<?php echo e($meta['tagline']); ?>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><?= htmlspecialchars($profile["name"]) ?> — Portfolio</title>
+  <meta name="description" content="Portfolio of <?= htmlspecialchars($profile["name"]) ?> — <?= htmlspecialchars($profile["title"]) ?> in <?= htmlspecialchars($profile["location"]) ?>." />
+  <style>
+    :root {
+      --bg: #0b0d10;
+      --card: #12161b;
+      --muted: #9aa4af;
+      --text: #e8edf2;
+      --accent: #6aa6ff;
+      --pill: #1e2530;
+      --border: #22303d;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 24px; }
+    header { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; padding: 8px 0 24px; border-bottom: 1px solid var(--border); }
+    .title h1 { font-size: 28px; margin: 0; }
+    .title p { margin: 4px 0 0; color: var(--muted); }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .pill { background: var(--pill); color: var(--text); padding: 6px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; margin-top: 24px; }
+    @media (min-width: 900px) { .grid { grid-template-columns: 1.1fr 0.9fr; } }
+    section { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+    h2 { margin: 0 0 10px; font-size: 18px; letter-spacing: .3px; }
+    .muted { color: var(--muted); }
+    ul { margin: 8px 0 0 18px; }
+    li { margin: 6px 0; }
+    .job { padding: 12px; border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; background: rgba(255,255,255,0.01); }
+    .job h3 { margin: 0; font-size: 16px; }
+    .chip { display: inline-block; padding: 4px 8px; border-radius: 999px; background: var(--pill); border: 1px solid var(--border); margin: 4px 6px 0 0; font-size: 12px; color: var(--muted); }
+    footer { margin: 24px 0 8px; color: var(--muted); text-align: center; }
+    .sr { position: absolute; left: -9999px; }
+  </style>
 </head>
 <body>
-<nav>
-    <div class="container nav-bar">
-        <a href="#top" class="brand">⚡ <?php echo e($meta['name']); ?></a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
-            <span>Menu</span>
-        </button>
-        <div class="links" id="primary-navigation">
-            <a href="#initiatives">Initiatives</a>
-            <a href="#principles">Principles</a>
-            <a href="#experience">Experience</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#recognition">Recognition</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </div>
-</nav>
-
-<header id="top" class="hero section">
-    <div class="container hero-layout">
-        <div class="hero-content">
-            <span class="eyebrow"><?php echo e($meta['eyebrow']); ?></span>
-            <h1 class="headline">I’m <?php echo e($meta['name']); ?> — a <?php echo e($meta['role']); ?> who turns vision into measurable delivery.</h1>
-            <p class="tagline"><?php echo e($meta['tagline']); ?></p>
-            <ul class="hero-highlights">
-                <?php foreach ($highlights as $highlight): ?>
-                    <li><?php echo e($highlight); ?></li>
-                <?php endforeach; ?>
-            </ul>
-            <div class="cta">
-                <a class="button primary" href="#initiatives">Explore my impact</a>
-                <a class="button outline" href="#contact">Schedule a conversation</a>
-            </div>
-        </div>
-        <div class="hero-media">
-            <div class="hero-frame">
-                <img src="assets/images/hero-portrait.svg" alt="Illustrated portrait of <?php echo e($meta['name']); ?>" loading="lazy">
-                <div class="hero-availability">
-                    <span class="status-dot" aria-hidden="true"></span>
-                    <span><?php echo e($meta['availability']); ?></span>
-                </div>
-            </div>
-            <div class="metrics-grid">
-                <?php foreach ($metrics as $metric): ?>
-                    <div class="metric-card">
-                        <span class="metric-value"><?php echo e($metric['value']); ?></span>
-                        <p><?php echo e($metric['label']); ?></p>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-            <p class="location">Based in <?php echo e($meta['location']); ?></p>
-        </div>
-    </div>
-</header>
-
-<main>
-    <section id="initiatives" class="section">
-        <div class="container">
-            <h2 class="section-title">Featured initiatives</h2>
-            <p class="section-subtitle">Programs where I partnered with teams to ship resilient platforms, confident teams, and measurable value.</p>
-            <div class="grid initiatives-grid">
-                <?php foreach ($initiatives as $initiative): ?>
-                    <article class="card initiative-card">
-                        <div class="initiative-media">
-                            <img src="<?php echo e($initiative['image']); ?>" alt="<?php echo e($initiative['title']); ?> illustration" loading="lazy">
-                        </div>
-                        <div class="initiative-content">
-                            <h3><?php echo e($initiative['title']); ?></h3>
-                            <p><?php echo e($initiative['description']); ?></p>
-                            <ul class="initiative-stats">
-                                <li><strong>Impact:</strong> <?php echo e($initiative['impact']); ?></li>
-                                <li><strong>Focus:</strong> <?php echo e($initiative['focus']); ?></li>
-                            </ul>
-                            <div class="actions">
-                                <?php foreach ($initiative['links'] as $link): ?>
-                                    <a href="<?php echo e($link['url']); ?>" target="_blank" rel="noopener"><?php echo e($link['label']); ?></a>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="principles" class="section alt">
-        <div class="container">
-            <h2 class="section-title">Leadership principles</h2>
-            <p class="section-subtitle">What it feels like to build alongside me — clarity, trust, and empowered teams delivering with purpose.</p>
-            <div class="grid pillars-grid">
-                <?php foreach ($pillars as $pillar): ?>
-                    <article class="card pillar-card">
-                        <span class="pillar-icon" aria-hidden="true"><?php echo e($pillar['icon']); ?></span>
-                        <h3><?php echo e($pillar['title']); ?></h3>
-                        <p><?php echo e($pillar['description']); ?></p>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <p class="section-subtitle">Over a decade scaling engineering organizations, modernizing platforms, and uplifting the humans behind them.</p>
-            <div class="timeline">
-                <?php foreach ($experience as $item): ?>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h4><?php echo e($item['role']); ?> · <?php echo e($item['company']); ?></h4>
-                            <span><?php echo e($item['period']); ?></span>
-                        </div>
-                        <p><?php echo e($item['summary']); ?></p>
-                        <?php if (!empty($item['highlights'])): ?>
-                            <ul class="timeline-highlights">
-                                <?php foreach ($item['highlights'] as $point): ?>
-                                    <li><?php echo e($point); ?></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        <?php endif; ?>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="section alt">
-        <div class="container">
-            <h2 class="section-title">Trusted by product and engineering leaders</h2>
-            <p class="section-subtitle">Partners and peers share how collaborative leadership translated into business outcomes.</p>
-            <div class="grid testimonials-grid">
-                <?php foreach ($testimonials as $testimonial): ?>
-                    <article class="card testimonial-card">
-                        <p>“<?php echo e($testimonial['quote']); ?>”</p>
-                        <p class="testimonial-author"><?php echo e($testimonial['author']); ?></p>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="recognition" class="section">
-        <div class="container">
-            <h2 class="section-title">Recognition &amp; speaking</h2>
-            <p class="section-subtitle">Highlights from communities that invited me to share lessons learned across leadership, delivery, and culture.</p>
-            <div class="grid recognition-grid">
-                <?php foreach ($recognitions as $recognition): ?>
-                    <article class="card recognition-card">
-                        <h3><?php echo e($recognition['title']); ?></h3>
-                        <span class="recognition-issuer"><?php echo e($recognition['issuer']); ?></span>
-                        <p><?php echo e($recognition['summary']); ?></p>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section alt">
-        <div class="container">
-            <h2 class="section-title">Let’s design your next chapter</h2>
-            <p class="section-subtitle">Share a bit about your goals and I’ll reply with discovery steps, suggested timelines, and the team rituals that can help.</p>
-            <div class="grid contact-grid">
-                <div class="card contact-card">
-                    <h3>How I can help</h3>
-                    <p>Fractional engineering leadership, platform modernization programs, and hands-on coaching for new managers.</p>
-                    <div>
-                        <h4>Current focus</h4>
-                        <p>Platform health checks · Delivery coaching · SRE enablement · Product-engineering alignment</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <?php if ($feedback): ?>
-                        <div class="feedback"><?php echo e($feedback); ?></div>
-                    <?php endif; ?>
-                    <form method="post" novalidate>
-                        <label>
-                            <span>Name</span>
-                            <input type="text" name="name" value="<?php echo e($formData['name']); ?>" <?php echo isset($errors['name']) ? 'aria-invalid="true"' : ''; ?> required>
-                        </label>
-                        <label>
-                            <span>Email</span>
-                            <input type="email" name="email" value="<?php echo e($formData['email']); ?>" <?php echo isset($errors['email']) ? 'aria-invalid="true"' : ''; ?> required>
-                        </label>
-                        <label>
-                            <span>How can I support you?</span>
-                            <textarea name="message" rows="5" <?php echo isset($errors['message']) ? 'aria-invalid="true"' : ''; ?> required><?php echo e($formData['message']); ?></textarea>
-                        </label>
-                        <button class="button primary" type="submit">Send message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <p>© <?php echo date('Y'); ?> <?php echo e($meta['name']); ?>. Leading teams that ship with confidence.</p>
-    <div class="socials">
-        <?php foreach ($socials as $social): ?>
-            <a href="<?php echo e($social['url']); ?>" target="_blank" rel="noopener"><?php echo e($social['label']); ?></a>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1><?= htmlspecialchars($profile["name"]) ?></h1>
+        <p><?= htmlspecialchars($profile["title"]) ?> • <?= htmlspecialchars($profile["location"]) ?></p>
+      </div>
+      <nav class="links" aria-label="Profile links">
+        <?php foreach ($profile["links"] as $l): ?>
+          <a class="pill" href="<?= htmlspecialchars($l["url"]) ?>" target="_blank" rel="noopener"><?= htmlspecialchars($l["label"]) ?></a>
         <?php endforeach; ?>
-    </div>
-</footer>
+        <a class="pill" href="mailto:<?= htmlspecialchars($profile["email"]) ?>">Email</a>
+      </nav>
+    </header>
 
-<script src="assets/js/main.js" defer></script>
+    <main class="grid">
+      <section aria-labelledby="summary">
+        <h2 id="summary">Summary</h2>
+        <p class="muted"><?= htmlspecialchars($profile["summary"]) ?></p>
+      </section>
+
+      <section aria-labelledby="skills">
+        <h2 id="skills">Skills</h2>
+        <?php foreach ($skills as $group => $items): ?>
+          <div class="job">
+            <h3><?= htmlspecialchars($group) ?></h3>
+            <p class="muted">
+              <?php foreach ($items as $i): ?>
+                <span class="chip"><?= htmlspecialchars($i) ?></span>
+              <?php endforeach; ?>
+            </p>
+          </div>
+        <?php endforeach; ?>
+      </section>
+
+      <section aria-labelledby="experience" style="grid-column: 1 / -1;">
+        <h2 id="experience">Experience</h2>
+        <?php foreach ($experience as $exp): ?>
+          <article class="job">
+            <h3>
+              <?= htmlspecialchars($exp["role"]) ?> — <?= htmlspecialchars($exp["company"]) ?>
+            </h3>
+            <p class="muted">
+              <?php if (!empty($exp["location"])): ?>
+                <?= htmlspecialchars($exp["location"]) ?> •
+              <?php endif; ?>
+              <?= htmlspecialchars($exp["period"]) ?>
+            </p>
+            <?php if (!empty($exp["bullets"])): ?>
+              <ul>
+                <?php foreach ($exp["bullets"] as $b): ?>
+                  <li><?= htmlspecialchars($b) ?></li>
+                <?php endforeach; ?>
+              </ul>
+            <?php endif; ?>
+            <?php if (!empty($exp["tech"])): ?>
+              <p class="muted">
+                <?php foreach (explode(",", $exp["tech"]) as $t): ?>
+                  <span class="chip"><?= htmlspecialchars(trim($t)) ?></span>
+                <?php endforeach; ?>
+              </p>
+            <?php endif; ?>
+          </article>
+        <?php endforeach; ?>
+      </section>
+
+      <section aria-labelledby="education">
+        <h2 id="education">Education</h2>
+        <?php foreach ($education as $e): ?>
+          <div class="job">
+            <h3><?= htmlspecialchars($e["degree"]) ?></h3>
+            <p class="muted"><?= htmlspecialchars($e["school"]) ?> • <?= htmlspecialchars($e["year"]) ?></p>
+          </div>
+        <?php endforeach; ?>
+      </section>
+
+      <section aria-labelledby="certs">
+        <h2 id="certs">Certificates</h2>
+        <ul>
+          <?php foreach ($certifications as $c): ?>
+            <li><a href="<?= htmlspecialchars($c["url"]) ?>" target="_blank" rel="noopener"><?= htmlspecialchars($c["name"]) ?></a></li>
+          <?php endforeach; ?>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; <?php echo date('Y'); ?> <?= htmlspecialchars($profile["name"]) ?> — Portfolio</small>
+    </footer>
+  </div>
 </body>
 </html>
