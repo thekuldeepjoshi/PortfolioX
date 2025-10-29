@@ -18,7 +18,6 @@
       "role": "Engineering Manager (Ops)",
       "company": "Fiserv \u00b7 Clover",
       "location": "Nenagh, Ireland",
-      "period": "Jan 2021 \u2013 Present",
       "summary": "Lead full-stack squads shipping B2B and B2C fintech experiences while safeguarding reliability for Clover\u2019s Android and cloud ecosystems.",
       "achievements": [
         "Led the design, development, and support of microservices and web APIs using Python and Java, enabling seamless integration with Clover\u2019s payment platform.",
@@ -33,7 +32,6 @@
         {
           "role": "Senior Software Engineer",
           "company": "Fiserv",
-          "period": "2021 \u2013 2022",
           "achievements": [
             "Served as SME for Clover APIs, SDKs, and SaaS platforms to resolve complex customer integrations.",
             "Improved technical support SLA response time by 30% with Python automation tooling.",
@@ -58,7 +56,6 @@
       "role": "Engineering Mentor",
       "company": "Future in Tech",
       "location": "Dublin, Ireland",
-      "period": "Mar 2022 \u2013 Jun 2022",
       "summary": "Volunteer mentor for the Python Software Delivery zone supporting emerging engineers.",
       "achievements": [
         "Mentored a student team through Python and Java project delivery, winning the final showcase competition.",
@@ -70,7 +67,6 @@
       "role": "Software Engineer",
       "company": "Nolan Transport",
       "location": "New Ross, Ireland",
-      "period": "Sep 2016 \u2013 Dec 2020",
       "summary": "Delivered mission-critical transport planning, customer portal, and fleet management products with PHP and LAMP.",
       "achievements": [
         "Built automated microservices that increased job-processing efficiency by 20%.",
@@ -82,7 +78,6 @@
       "role": "Software Engineer",
       "company": "Stay Planet",
       "location": "Dublin, Ireland",
-      "period": "Oct 2014 \u2013 Dec 2014",
       "summary": "Developed Laravel-based web applications for a hospitality marketplace while managing MySQL data models.",
       "achievements": [
         "Implemented object-oriented PHP patterns to streamline feature delivery.",
@@ -138,17 +133,14 @@
     {
       "degree": "MBA Executive",
       "institution": "London School of Economics (LSE)",
-      "year": "2022"
     },
     {
       "degree": "Master of Science in Computing",
       "institution": "Griffith College Dublin, Ireland",
-      "year": "2015"
     },
     {
       "degree": "Bachelor of Science in Computer Application",
       "institution": "KSKV Kachchh University, India",
-      "year": "2013"
     }
   ],
   "certificates": [
