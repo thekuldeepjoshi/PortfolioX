@@ -3,7 +3,7 @@ $meta = [
     'name' => 'Kuldeep Joshi',
     'role' => 'Engineering Manager',
     'tagline' => 'Engineering leader with 10+ years orchestrating resilient platforms, empowering teams, and shipping outcomes that matter.',
-    'location' => 'Pune, India · Leading distributed product engineering teams',
+    'location' => 'Dublin, Ireland',
     'availability' => 'Available for transformation and advisory engagements starting Q3 2024.',
     'eyebrow' => 'Engineering leadership · Platform modernization · Team enablement',
 ];
@@ -138,7 +138,7 @@ $recognitions = [
 ];
 
 $socials = [
-    ['label' => 'LinkedIn', 'url' => 'https://www.linkedin.com/in/kuldeepjoshi/'],
+    ['label' => 'LinkedIn', 'url' => 'https://www.linkedin.com/in/kuldeep-joshi/'],
     ['label' => 'GitHub', 'url' => 'https://github.com/kuldeepjoshi'],
     ['label' => 'Medium', 'url' => 'https://medium.com/@kuldeepjoshi'],
     ['label' => 'Email', 'url' => 'mailto:hello@kuldeepjoshi.com'],
