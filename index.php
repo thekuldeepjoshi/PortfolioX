@@ -22,7 +22,6 @@ $experience = [
     "role" => "Engineering Manager (Ops)",
     "company" => "Fiserv (Clover)",
     "location" => "Nenagh, Ireland",
-    "period" => "Jan 2021 – Present",
     "bullets" => [
       "Led design, development, and support of microservices and web APIs in Python and Java integrating with Clover’s payment platform and financial services.",
       "Managed a team of 8 engineers in Developer Relations handling customer escalations, API troubleshooting, and platform behaviour analysis.",
@@ -37,8 +36,6 @@ $experience = [
   [
     "role" => "Senior Software Engineer",
     "company" => "Fiserv",
-    "location" => "",
-    "period" => "2021 – 2022",
     "bullets" => [
       "Served as SME for Clover APIs, SDKs, and SaaS platforms; provided technical guidance and resolved customer‑reported issues.",
       "Improved SLA response time by 30% by building Python automation tooling for issue resolution.",
@@ -49,7 +46,6 @@ $experience = [
     "role" => "Engineering Mentor (Volunteer)",
     "company" => "Future in Tech",
     "location" => "Dublin, Ireland",
-    "period" => "Mar 2022 – Jun 2022",
     "bullets" => [
       "Mentored a small team on Python and Java projects within the Software Delivery zone.",
       "Guided team to meet project challenges and win the final competition.",
@@ -61,7 +57,6 @@ $experience = [
     "role" => "Software Engineer",
     "company" => "Nolan Transport",
     "location" => "New Ross, Ireland",
-    "period" => "Sep 2016 – Dec 2020",
     "bullets" => [
       "Developed Transport Planning System, Customer Portal, and Fleet Management apps using PHP/LAMP.",
       "Built 6+ automated microservices improving job processing efficiency by ~20%.",
@@ -73,7 +68,6 @@ $experience = [
     "role" => "Software Engineer",
     "company" => "Stay Planet",
     "location" => "Dublin, Ireland",
-    "period" => "Oct 2014 – Dec 2014",
     "bullets" => [
       "Developed and maintained web app using PHP, Laravel, HTML, CSS.",
       "Implemented OOP concepts and maintained MySQL database.",
@@ -102,9 +96,9 @@ $skills = [
 ];
 
 $education = [
-  ["degree" => "MBA Executive", "school" => "London School of Economics (LSE)", "year" => "2022"],
-  ["degree" => "MSc in Computing", "school" => "Griffith College Dublin, Ireland", "year" => "2015"],
-  ["degree" => "BSc in Computer Application", "school" => "KSKV Kachchh University, India", "year" => "2013"],
+  ["degree" => "MBA Executive", "school" => "London School of Economics (LSE)"],
+  ["degree" => "MSc in Computing", "school" => "Griffith College Dublin, Ireland"],
+  ["degree" => "BSc in Computer Application", "school" => "KSKV Kachchh University, India"],
 ];
 
 $certifications = [
