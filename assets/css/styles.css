@@ -153,6 +153,77 @@ nav .links {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.portfolio-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.portfolio-card {
+  background: linear-gradient(160deg, rgba(15, 23, 42, 0.92) 0%, rgba(30, 64, 175, 0.55) 100%);
+  border-radius: 24px;
+  border: 1px solid rgba(96, 165, 250, 0.25);
+  overflow: hidden;
+  box-shadow: 0 25px 45px rgba(15, 23, 42, 0.45);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  transition: transform 0.4s ease, border-color 0.4s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(246, 173, 85, 0.45);
+}
+
+.portfolio-media {
+  position: relative;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.7);
+}
+
+.portfolio-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.05);
+  transition: transform 0.6s ease;
+}
+
+.portfolio-card:hover .portfolio-media img {
+  transform: scale(1.04);
+}
+
+.portfolio-body {
+  padding: 1.8rem 1.6rem 2rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.portfolio-body h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.portfolio-body p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.portfolio-body span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(248, 250, 252, 0.75);
+  padding: 0.35rem 0.8rem;
+  background: rgba(15, 23, 42, 0.55);
+  border-radius: 999px;
+  width: fit-content;
+}
+
 .card {
   background: var(--card-bg);
   border-radius: 20px;

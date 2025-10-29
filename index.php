@@ -36,6 +36,62 @@ $projects = [
     ],
 ];
 
+function loadPortfolioGallery(string $path): array
+{
+    $fallback = [
+        [
+            'title' => 'Hero Landing Page',
+            'description' => 'Spotlight a flagship screen from your product launch with a concise summary of the outcome.',
+            'note' => 'Swap in a high-resolution capture and a one-sentence win.',
+            'image' => 'assets/img/portfolio-placeholder-1.svg',
+        ],
+        [
+            'title' => 'Product Dashboard',
+            'description' => 'Showcase a data-dense interface or feature workflow that demonstrates depth and usability.',
+            'note' => 'Highlight the audience, problem, or metric impacted.',
+            'image' => 'assets/img/portfolio-placeholder-2.svg',
+        ],
+        [
+            'title' => 'Mobile Experience',
+            'description' => 'Include a responsive or native view to underline multi-device craftsmanship.',
+            'note' => 'Pair with a short takeaway about accessibility or performance.',
+            'image' => 'assets/img/portfolio-placeholder-3.svg',
+        ],
+    ];
+
+    if (!is_readable($path)) {
+        return $fallback;
+    }
+
+    $contents = file_get_contents($path);
+    if ($contents === false || trim($contents) === '') {
+        return $fallback;
+    }
+
+    $decoded = json_decode($contents, true);
+    if (!is_array($decoded)) {
+        return $fallback;
+    }
+
+    $gallery = [];
+    foreach ($decoded as $entry) {
+        if (!is_array($entry)) {
+            continue;
+        }
+
+        $gallery[] = [
+            'title' => (string)($entry['title'] ?? 'Untitled Showcase'),
+            'description' => (string)($entry['description'] ?? ''),
+            'note' => (string)($entry['note'] ?? ''),
+            'image' => (string)($entry['image'] ?? 'assets/img/portfolio-placeholder-1.svg'),
+        ];
+    }
+
+    return $gallery ?: $fallback;
+}
+
+$portfolioGallery = loadPortfolioGallery(__DIR__ . '/storage/portfolio.json');
+
 $experience = [
     [
         'role' => 'Senior Product Engineer',
@@ -154,6 +210,7 @@ function e(string $value): string
     <div class="container">
         <a href="#top" class="brand" id="top">⚡ <?php echo e($meta['name']); ?></a>
         <div class="links">
+            <a href="#portfolio">Portfolio</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
             <a href="#testimonials">Testimonials</a>
@@ -182,6 +239,29 @@ function e(string $value): string
 </header>
 
 <main>
+    <section id="portfolio" class="container">
+        <h2 class="section-title">Visual Portfolio</h2>
+        <p class="section-subtitle">Drop in polished screenshots and notes from your standout launches.</p>
+        <div class="portfolio-grid">
+            <?php foreach ($portfolioGallery as $item): ?>
+                <figure class="portfolio-card">
+                    <div class="portfolio-media">
+                        <img src="<?php echo e($item['image']); ?>" alt="<?php echo e($item['title']); ?> placeholder image">
+                    </div>
+                    <figcaption class="portfolio-body">
+                        <h3><?php echo e($item['title']); ?></h3>
+                        <?php if ($item['description'] !== ''): ?>
+                            <p><?php echo e($item['description']); ?></p>
+                        <?php endif; ?>
+                        <?php if ($item['note'] !== ''): ?>
+                            <span><?php echo e($item['note']); ?></span>
+                        <?php endif; ?>
+                    </figcaption>
+                </figure>
+            <?php endforeach; ?>
+        </div>
+    </section>
+
     <section id="projects" class="container">
         <h2 class="section-title">Featured Projects</h2>
         <p class="section-subtitle">A curated selection of builds that blend delightful front-end craft with resilient backend systems.</p>
