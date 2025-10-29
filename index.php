@@ -4,7 +4,7 @@ declare(strict_types=1);
 $contentPath = __DIR__ . '/content/profile.json';
 $content = json_decode(file_get_contents($contentPath) ?: '[]', true);
 
-vardump($content)
+var_dump($content);
 
 if (!is_array($content) || !$content) {
     throw new RuntimeException('Unable to load portfolio content.');
