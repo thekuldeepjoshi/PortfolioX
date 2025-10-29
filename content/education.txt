@@ -1,5 +1,4 @@
-# Format: Title | Institution | Period
-# Follow with one or more detail lines. Separate entries with ---
+
 MBA Executive | London School of Economics (LSE) | 2022
 - Focused on strategic leadership, innovation management, and global business operations.
 
