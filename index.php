@@ -55,7 +55,7 @@ $testimonials = load_testimonials();
                     </div>
                 </div>
                 <figure class="hero-visual">
-                    <img src="assets/img/hero-portrait.svg" alt="Abstract representation of <?php echo htmlspecialchars($profile['name']); ?>">
+                    <img src="assets/img/Herobanner.png" alt="Abstract representation of <?php echo htmlspecialchars($profile['name']); ?>">
                     <figcaption>Crafting resilient software experiences</figcaption>
                 </figure>
             </div>
