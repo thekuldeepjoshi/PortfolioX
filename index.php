@@ -46,8 +46,8 @@ $testimonials = load_testimonials();
             <div class="container">
                 <div class="hero-content">
                     <p class="eyebrow"><?php echo htmlspecialchars($profile['location']); ?></p>
-                    <h1><?php echo htmlspecialchars($profile['name']); ?> <span></span></h1>
-                    <h3><?php echo htmlspecialchars($profile['role']); ?></span></h3>
+                    <h1><?php echo htmlspecialchars($profile['name']); ?></h1>
+                    <h2> <span><?php echo htmlspecialchars($profile['role']); ?></span></h2>
                     <p class="tagline"><?php echo htmlspecialchars($profile['tagline']); ?></p>
                     <div class="cta">
                         <a class="button primary" href="#portfolio">Explore portfolio</a>
@@ -71,7 +71,7 @@ $testimonials = load_testimonials();
                     <h3>Highlights</h3>
                     <ul>
                         <?php foreach ($profile['hero_highlights'] as $highlight): ?>
-                            <li><?php echo htmlspecialchars($highlight); ?></li>
+                            <?php echo htmlspecialchars($highlight); ?>
                         <?php endforeach; ?>
                     </ul>
                 </aside>
@@ -106,7 +106,7 @@ $testimonials = load_testimonials();
                                 <?php if (!empty($project['link']) && $project['link'] !== '#'): ?>
                                     <a class="project-link" href="<?php echo htmlspecialchars($project['link']); ?>" target="_blank" rel="noopener">View project</a>
                                 <?php else: ?>
-                                    <span class="project-link placeholder">Add project link</span>
+                                    <span class="project-link placeholder"></span>
                                 <?php endif; ?>
                             </div>
                         </article>
