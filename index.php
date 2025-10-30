@@ -46,7 +46,8 @@ $testimonials = load_testimonials();
             <div class="container">
                 <div class="hero-content">
                     <p class="eyebrow"><?php echo htmlspecialchars($profile['location']); ?></p>
-                    <h1><?php echo htmlspecialchars($profile['name']); ?> <span>· <?php echo htmlspecialchars($profile['role']); ?></span></h1>
+                    <h1><?php echo htmlspecialchars($profile['name']); ?> <span></span></h1>
+                    <h3><?php echo htmlspecialchars($profile['role']); ?></span></h3>
                     <p class="tagline"><?php echo htmlspecialchars($profile['tagline']); ?></p>
                     <div class="cta">
                         <a class="button primary" href="#portfolio">Explore portfolio</a>
