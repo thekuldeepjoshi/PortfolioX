@@ -55,7 +55,7 @@ $testimonials = load_testimonials();
                     </div>
                 </div>
                 <figure class="hero-visual">
-                    <img src="assets/img/Herobanner.png" alt="Abstract representation of <?php echo htmlspecialchars($profile['name']); ?>">
+                    <img src="assets/img/HeroBanner.png" alt="Abstract representation of <?php echo htmlspecialchars($profile['name']); ?>">
                     <figcaption>Crafting resilient software experiences</figcaption>
                 </figure>
             </div>
@@ -71,7 +71,7 @@ $testimonials = load_testimonials();
                     <h3>Highlights</h3>
                     <ul>
                         <?php foreach ($profile['hero_highlights'] as $highlight): ?>
-                            <?php echo htmlspecialchars($highlight); ?>
+                           <li> <?php echo htmlspecialchars($highlight); ?></li>
                         <?php endforeach; ?>
                     </ul>
                 </aside>
