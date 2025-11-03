@@ -1,0 +1,15 @@
+# Personal profile content
+name=Kuldeep Joshi
+role=Engineering Manager (MBA, MSc CS)
+location=Dublin, Ireland
+email=Kuldeep.joshi197@gmail.com
+tagline=Strategic engineering leader building resilient fintech and SaaS platforms.
+summary=Engineering Manager with 10+ years of experience delivering scalable payment, SaaS, and logistics solutions across startups and global organisations.
+about=Strategic Engineering Leader with hands-on experience delivering scalable, high-performance software
+solutions across startups and global organisations. I have built scalable systems using Python, Java and PHP. I specialize
+in designing and optimizing robust cloud systems using modern tech like GCP, Kubernetes and Microservices, always
+focusing on reliability and clean architecture. I am passionate about leading and mentoring engineering teams, and my
+dedication to people development was recognized with an external mentorship award. With an executive MBA from the
+London School of Economics (LSE) and a MSc in Computing Science, I bring a strong blend of technical expertise and
+strategic insight. Having worked in diverse, multicultural environments.
+hero_highlights=Led teams delivering scalable SaaS solutions | Drove cloud transformation with GCP & Kubernetes | Award-winning mentor fostering engineering excellence | MBA from LSE combining tech strategy | building strong leadership partnerships.

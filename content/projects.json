@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Vflow — Logistics Cloud Platform",
+    "summary": "Built a cloud-native logistics platform to unify planning and real-time tracking; reduced delays by 28% and achieved 99.98% uptime.",
+    "image": "assets/img/vectorflow.svg",
+    "technologies": ["Python", "GCP", "Kubernetes", "gRPC", "PostgreSQL", "Grafana", "React"],
+    "link": "#"
+  },
+  {
+    "title": "Aurapay — PCI-Compliant Payments Core",
+    "summary": "Architected a PCI-compliant, tokenized payments core with event-driven processing; supported $20M+/month, zero incidents, and 40% faster deployments.",
+    "image": "assets/img/aurorapay.svg",
+    "technologies": ["Java", "Spring Boot", "Kafka", "AWS", "PostgreSQL", "Jenkins", "Docker"],
+    "link": "#"
+  },
+  {
+    "title": "IndoIrish news — Irish Digital Newspaper Platform",
+    "summary": "Developed a scalable, high-performance digital news publishing system for an Irish media network. Delivered instant content publishing, user personalization, and subscription-based access.",
+    "image": "assets/img/emeraldpress.svg",
+    "technologies": ["PHP", "Laravel", "MySQL", "React", "Redis", "AWS", "ElasticSearch"],
+    "link": "#"
+  },
+  {
+    "title": "Shopee — Local Grocery Delivery App (Ireland)",
+    "summary": "Launched a location-based grocery ordering and delivery platform connecting Irish local stores to customers. Implemented route optimization, real-time order tracking, and digital payments.",
+    "image": "assets/img/greenbasket.svg",
+    "technologies": ["Python", "Django", "Flutter", "PostgreSQL", "Firebase", "Stripe API"],
+    "link": "#"
+  }
+]
